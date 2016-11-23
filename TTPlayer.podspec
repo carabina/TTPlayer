@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "Trituple" => "trituple@email.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/Trituple/TTPlayer.git", :tag => "#{s.version}" }
-  s.source_files  = "TTPlayer/TTPlayer/*.swift"
+  s.source_files  = "TTPlayer/*.swift"
   s.framework  = "AVFoundation"
   s.requires_arc = true
 end
